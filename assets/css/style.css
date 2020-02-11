@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* Global CSS Start */
+a{
+    text-decoration: none;
+}
+.common_btn{}a.common_btn {
+    background: #25A590;
+    padding: 7px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.services_widget {
+    margin-bottom: 30px;
+}
+
+.services_widget img {
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+section{
+    margin: 80px 0;
+}
+.title {
+    position: relative;
+    border-bottom: 0px solid #000;
+    border-bottom-width: 1px;
+    margin-bottom: 30px;
+    border-color: #D7D7D7;
+}
+
+.title::after {content: "";position: absolute;left: 0;bottom: 0;width: 150px;height: 3px;background-color: #27A690;}
+.title_mid {
+    position: relative;
+    margin-bottom: 30px;
+    border-color: #2e2e2e;
+    text-align: center;
+}
+
+
+
+.title_mid::before {content: "";position: absolute;left: 48%;bottom: 0;right: 49%;width: 40px;background: #226A90;height: 3px;}
+.title_mid h2 {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+h5 {
+    font-size: 24px;
+    color: #2e2e2e;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* Global CSS END */
+
+
+/*Header CSS Start*/
+.top_bar_left {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+header#header {
+    background-color: #2E2E2E;
+}
+
+.top_bar_right {
+    color: #fff;
+    margin-top: 12px;
+}
+
+.top_bar_right p {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+.top_bar_right i {
+    color: #000;
+    background: #fff;
+    height: 20px;
+    margin-left: 15px;
+    width: 20px;
+    text-align: center;
+    padding: 3px 0;
+}
+/*Header CSS END*/
+/* Main Menu CSS Start */
+#main_menu{
+    background-color: rgba(187, 189, 192, .5);
+    margin: 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+/* .nav-item::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+} */
+ .nav-item{
+    border-right: 0px solid #fff;
+    border-right-width: 2px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+} 
+.nav-item:last-child{border-right: none;}
+.nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+/* Main Menu CSS End */
+
+/* Banner CSS START */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    position: relative;
+}
+.banner_text {
+    background-color: rgba(121, 124, 130, 0.5);
+    width: 940px;
+}
+
+.banner_text h2 {
+    width: 620px;
+    font-size: 60px;
+    color: #fff;
+    margin-left: 285px;
+}
+
+.banner_text p {
+    color: #fff;
+    font-size: 25px;
+    width: 650px;
+    margin-left: 285px;
+}
+/* Banner CSS END */
+
+/* Main Motto CSS START */
+section#main_motto {
+    background-color: #27A690;
+    padding: 30px 0;
+    margin-top: 0;
+}
+
+.main_motto h5 {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.main_motto p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_motto img {
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 14px;
+}
+/* Main Motto CSS END */
+/* Expert CSS START */
+#expert{
+    background-image: url(../images/rectangle.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* Expert CSS END */
+
+/* Type CSS START */
+#expert h2 {
+    font-size: 65px;
+    color: #3D3D3D;
+}
+
+.type_widget img{
+    width: 180px;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+.type_widget h5 {
+    font-size: 24px;
+    color: #2E2E2E;
+    font-weight: 700;
+}
+
+.type_widget p {
+    font-size: 14px;
+    color: #666666;
+}
+/* Type CSS END */
+
+/* Services Section Start */
+.services_widget h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+.services_widget p {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* Services Section End */
+/* Porq Section Start */
+.porq_right img {
+    width: 300px;
+    height: 430px;
+}
+
+.porq_right p {
+    font-size: 12px;
+}
+/* Porq Section Start */
+
+/* Items CSS Start */
+.items p {
+    margin-bottom: 65px;
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Items CSS End */
+
+.ref_title.title {
+}
+
+.brand {
+}
+
+.col-sm-2 {
+}
+
+.footer_items img {display: inline-block;margin-right: 15px;}
+.footer_items h4{display: inline-block;}
+.footer_items h5{display: inline-block;}
+
+.fas.fa-phone-alt {
+}
+
+.fas.fa-envelope {
+}
+
+.fas.fa-clock {
+}
